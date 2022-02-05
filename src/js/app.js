@@ -35,7 +35,7 @@ function render(variables = {}) {
           <img src="${variables.avatarURL}" class="photo" />
           <h1> ${variables.name === null ? "first" : variables.name} ${
     variables.lastname
-  }</h1>          <h2></h2>
+  }</h1>  <h2></h2>
           <h3></h3>
           <ul class="position-right">
             <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
